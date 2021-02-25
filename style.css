@@ -154,3 +154,22 @@ footer{
     cursor: pointer;
     box-shadow: 0 0.5px 3px rgba(0,0,0,0.15);
 }
+
+@media only screen and (max-width: 768px){
+    footer {
+        display: none;
+    }
+
+    form {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #main-logo {
+        padding: 0 10% 5vh;
+    }
+    form {
+        width: 90vw;
+    }
+}
